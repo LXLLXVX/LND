@@ -1,0 +1,7 @@
+<!ELEMENT videogames (videogame*)>
+<!ELEMENT videogame (name,price,release_date,minimum_allowed_age)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT minimum_allowed_age (#PCDATA)>
+<!ATTLIST videogame difficulty CDATA #IMPLIED>

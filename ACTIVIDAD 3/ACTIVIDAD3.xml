@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE matriculas SYSTEM "ACTIVIDAD3.dtd">
+
+<matriculas>
+
+    <alumno>
+        <nombre>Rodrigo</nombre>
+        <apellido1>Suarez</apellido1>
+        <apellido2>Perez</apellido2>
+        <edad>20</edad>
+
+        <modulos_de_los_que_se_matricula>
+            <modulo>LND</modulo>
+            <modulo>LNT</modulo>
+            <modulo>FOL</modulo>
+            <modulo>PRO</modulo>
+            <modulo>ETS</modulo>
+            <modulo>GTB</modulo>
+            <modulo>SSF</modulo>
+        </modulos_de_los_que_se_matricula>
+
+        <cursos_que_lleva_en_el_IES_El_Rincon>
+            <año>2010</año>
+            <año>2011</año>
+            <año>2012</año>
+        </cursos_que_lleva_en_el_IES_El_Rincon>
+    </alumno>
+
+    <alumno>
+        <nombre>Lucia</nombre>
+        <apellido1>Medina</apellido1>
+        <apellido2>Cabrera</apellido2>
+        <edad>31</edad>
+
+        <modulos_de_los_que_se_matricula>
+            <modulo>PRO</modulo>
+            <modulo>ETS</modulo>      
+        </modulos_de_los_que_se_matricula>
+
+        <cursos_que_lleva_en_el_IES_El_Rincon>
+            <año>2012</año>
+        </cursos_que_lleva_en_el_IES_El_Rincon>
+    </alumno>
+    
+</matriculas>

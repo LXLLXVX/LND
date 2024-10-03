@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE espacios_de_nombres SYSTEM "ACTIVIDAD5.dtd">
+
+<inversiones>
+    <pais nombre="Francia">
+        <capital>París</capital>
+        <capital>1200€</capital>
+    </pais>
+</inversiones>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE poema SYSTEM "ACTIVIDAD2.dtd">
+
+<poema date="Abril 1915" place="Granada">
+
+    <titulo> ALBA </titulo>
+
+    <versos>
+
+        <verso> Mi corazón oprimido </verso>
+        <verso> siente junto a la... </verso>
+        <verso> el dolor de sus... </verso>
+        <verso> y el sueño de las... </verso>
+    
+    </versos>
+
+</poema>

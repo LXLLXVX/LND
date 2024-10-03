@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!DOCTYPE peluquerias SYSTEM "ACTIVIDAD8.dtd">
+
+<peluquerias>
+
+    <peluqueria>
+
+        <identificador> STYLUZ </identificador>
+
+        <direccion>
+            <calle> Camelia </calle>
+            <numero> Nº 1 </numero>
+            <codigo_postal> 35010 </codigo_postal>
+        </direccion>
+
+        <empleados>
+            <empleado>
+                <nombre> Kevin </nombre>
+                <dni>43688240F</dni>
+                <fecha_de_nacimiento>12/07/2001</fecha_de_nacimiento>
+            </empleado>
+
+            <empleado>
+                <nombre> Sergio </nombre>
+                <dni>47884123G</dni>
+                <fecha_de_nacimiento>08/06/1999</fecha_de_nacimiento>
+            </empleado>
+
+            <empleado>
+                <nombre> Laura </nombre>
+                <dni>49387251H</dni>
+                <fecha_de_nacimiento>15/03/2000</fecha_de_nacimiento>
+            </empleado>
+        </empleados>
+
+        <clientes>
+            <cliente>
+                <nombre_cliente> María Pérez </nombre_cliente>
+                <telefonos>
+                    <telefono>654321987</telefono>
+                </telefonos>
+                <correo_electronico>maria.perez@example.com</correo_electronico>
+            </cliente>
+        </clientes>
+
+        <ofertas>
+            <servicio_ofertado> Corte de cabello </servicio_ofertado>
+            <precio>15.00</precio>
+            <porcentaje_de_rebaja>10</porcentaje_de_rebaja>
+        </ofertas>
+
+    </peluqueria>
+
+
+    <peluqueria>
+
+        <identificador> BELLEZA TOTAL </identificador>
+
+        <direccion> 
+            <calle>Mayor</calle>
+            <numero>Nº 23</numero>
+            <codigo_postal>3508</codigo_postal>
+        </direccion>
+            
+
+        <empleados>
+            <empleado>
+                <nombre> Ana </nombre>
+                <dni>51298764J</dni>
+                <fecha_de_nacimiento>22/11/1985</fecha_de_nacimiento>
+            </empleado>
+        </empleados>
+
+        <clientes>
+            <cliente>
+                <nombre_cliente> Juan Gómez </nombre_cliente>
+                <telefonos>
+                    <telefono>678543210</telefono>
+                    <telefono>928256612</telefono>
+                </telefonos>
+                <correo_electronico>juan.gomez@example.com</correo_electronico>
+            </cliente>
+        </clientes>
+
+        <ofertas>
+            <servicio_ofertado> Manicura </servicio_ofertado>
+            <precio>20.00</precio>
+            <porcentaje_de_rebaja>15</porcentaje_de_rebaja>
+        </ofertas>
+
+    </peluqueria>
+
+</peluquerias>

@@ -1,0 +1,10 @@
+<!ELEMENT matriculas (alumno+)>
+<!ELEMENT alumno (nombre, apellido1, apellido2, edad, modulos_de_los_que_se_matricula, cursos_que_lleva_en_el_IES_El_Rincon)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT modulos_de_los_que_se_matricula (modulo+)>
+<!ELEMENT cursos_que_lleva_en_el_IES_El_Rincon (año+)>
+<!ELEMENT modulo (#PCDATA)>
+<!ELEMENT año (#PCDATA)>

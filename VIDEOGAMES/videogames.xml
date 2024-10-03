@@ -1,0 +1,30 @@
+<!DOCTYPE videogames SYSTEM "videogames.dtd">
+<videogames>
+
+    <videogame difficulty="easy">
+        <name>FIFA</name>
+        <price>40</price>
+        <release_date>2024-09-20</release_date>
+        <minimum_allowed_age>3+</minimum_allowed_age>
+    </videogame>
+
+    <videogame>
+        <name>GTA VI</name>
+        <price>120</price>
+        <release_date>2025-12-25</release_date>
+        <minimum_allowed_age>18</minimum_allowed_age>
+    </videogame>
+
+    <videogame>
+        <name>F1</name>
+        <price>60</price>
+        <release_date>2022-04-10</release_date>
+        <minimum_allowed_age>3</minimum_allowed_age>
+    </videogame>
+
+</videogames>
+
+<!-- 
+    Documento válido: El que cumple las condiciones del DTD
+    Documento bien formado: Aquél que cumple con la sintaxis básica de los lenguajes de marca
+-->

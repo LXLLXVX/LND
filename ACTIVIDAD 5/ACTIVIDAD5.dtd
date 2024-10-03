@@ -1,0 +1,3 @@
+<!ELEMENT Inversiones (pais)>
+<!ATTLIST pais nombre CDATA #REQUIRED>
+<!ELEMENT capital (#PCDATA)>

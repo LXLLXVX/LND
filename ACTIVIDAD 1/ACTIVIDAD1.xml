@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE alumno SYSTEM "ACTIVIDAD1.dtd">
+
+<alumno>
+
+    <nombre>Ángel</nombre>
+    <apellidos>Lallave Herrera</apellidos>
+
+    <modulos>
+        <modulo>LND</modulo>
+        <modulo>FOL</modulo>
+        <modulo>sjdas</modulo>
+    </modulos>
+
+    <direccion>
+        <calle>Guanarteme</calle>
+        <numero>7</numero>
+    </direccion>
+
+</alumno>

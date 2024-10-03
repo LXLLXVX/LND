@@ -1,0 +1,8 @@
+<!ELEMENT alumno (nombre,apellidos,modulos,direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (#PCDATA)>
+<!ELEMENT direccion (calle,numero)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE pedidos SYSTEM "ACTIVIDAD4.dtd">
+
+<pedidos>
+    <pedido>
+        <pizzas>
+            <pizza>
+                <tipo> Margarita </tipo>
+                <cantidad> 1 </cantidad>
+                <extras>
+                    <extra>pimientos morrones</extra>
+                </extras>
+            </pizza>
+
+            <pizza>
+                <tipo> Artesana </tipo>
+                <cantidad> 2 </cantidad>
+                <extras>
+                    <extra></extra>
+                </extras>
+            </pizza>
+            
+            <pizza>
+                <tipo> Vegetal </tipo>
+                <cantidad> 1 </cantidad>
+                <extras>
+                    <extra></extra>
+                </extras>
+            </pizza>
+        </pizzas>
+    </pedido>
+
+    <datos>
+        <nombre_destinatario> Pepe Pérez </nombre_destinatario>
+        <direccion>
+            <calle> Guanarteme </calle>
+            <numero> 17 </numero>
+        </direccion>
+    </datos>
+    
+</pedidos>

@@ -1,0 +1,14 @@
+<!ELEMENT pedidos (pedido, datos)>
+<!ELEMENT pedido (pizzas)>
+<!ELEMENT pizzas (pizza*)>
+<!ELEMENT pizza (tipo, cantidad, extras)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT extras (extra?)>
+<!ELEMENT extra (#PCDATA)>
+
+<!ELEMENT datos (nombre_destinatario, direccion)>
+<!ELEMENT nombre_destinatario (#PCDATA)>
+<!ELEMENT direccion (calle, numero)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
