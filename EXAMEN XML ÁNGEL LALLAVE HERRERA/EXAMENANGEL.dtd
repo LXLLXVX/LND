@@ -1,0 +1,22 @@
+<!ELEMENT videogames (videogame+)>
+<!ELEMENT videogame (name,launch_date,employees,game_screens)>
+<!ATTLIST videogame id CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT launch_date (#PCDATA)>
+
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (employee_name,working_since,payrolls)>
+<!ATTLIST employee code CDATA #REQUIRED>    
+<!ELEMENT employee_name (#PCDATA)>
+<!ELEMENT working_since (#PCDATA)>
+<!ELEMENT payrolls (payroll+)>
+<!ELEMENT payroll (payroll_amount,payroll_date)>
+<!ELEMENT payroll_amount (#PCDATA)>
+<!ELEMENT payroll_date (#PCDATA)>
+
+<!ELEMENT game_screens (screen+)>
+<!ELEMENT screen (screen_name*,screen_creator*, screen_percent?)>
+<!ELEMENT screen_name (#PCDATA)>
+<!ELEMENT screen_creator (#PCDATA)>
+<!ELEMENT screen_percent (#PCDATA)>

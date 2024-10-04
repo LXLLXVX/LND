@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videogames SYSTEM "EXAMENANGEL.dtd">
+
+<videogames>
+
+    <videogame id="12345">
+        <name> God Of Life </name>
+        <launch_date> 12/10/2003 </launch_date>
+        <employees>
+            <employee code="9876">
+                <employee_name> Ángel </employee_name>
+                <working_since> 04/07/2002 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 1700€ </payroll_amount>
+                        <payroll_date> 04 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+            <employee code="3467">
+                <employee_name> Lucia </employee_name>
+                <working_since> 07/01/2003 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 1700€ </payroll_amount>
+                        <payroll_date> 01 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+            <employee code="5432">
+                <employee_name> Pedro </employee_name>
+                <working_since> 10/01/2003 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 1700€ </payroll_amount>
+                        <payroll_date> 10 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+        </employees>
+        <game_screens>
+            <screen>
+                <screen_name> El cielo </screen_name>
+                <screen_creator> 3467 </screen_creator>
+                <screen_percent> 85% </screen_percent>
+            </screen>
+            <screen>
+                <screen_name> El Infierno </screen_name>
+                <screen_creator> 9876 </screen_creator>
+            </screen>
+            <screen>
+                <screen_name> El Más Allá </screen_name>
+                <screen_creator> 5432 </screen_creator>
+            </screen>
+        </game_screens>
+    </videogame>
+
+    <videogame id="99999">
+        <name> Lolalolitapark </name>
+        <launch_date> 12/10/2023 </launch_date>
+        <employees>
+            <employee code="5555">
+                <employee_name> Silvia </employee_name>
+                <working_since> 02/06/2023 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 2300€ </payroll_amount>
+                        <payroll_date> 02 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+            <employee code="7777">
+                <employee_name> Álvaro </employee_name>
+                <working_since> 01/05/2022 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 2300€ </payroll_amount>
+                        <payroll_date> 01 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+            <employee code="8888">
+                <employee_name> Jose </employee_name>
+                <working_since> 10/10/2023 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 2300€ </payroll_amount>
+                        <payroll_date> 10 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+        </employees>
+        <game_screens>
+            <screen>
+                <screen_name> Parque del Terror </screen_name>
+                <screen_creator> 5555 </screen_creator>
+            </screen>
+            <screen>
+                <screen_name> Parque de la Lujuria </screen_name>
+                <screen_creator> 8888 </screen_creator>
+                <screen_percent> 45% </screen_percent>
+            </screen>
+        </game_screens>
+    </videogame>
+
+    <videogame id="46569">
+        <name> Card Lier </name>
+        <launch_date> 24/12/2008 </launch_date>
+        <employees>
+            <employee code="4236">
+                <employee_name> Pepe </employee_name>
+                <working_since> 13/06/2008 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 1200€ </payroll_amount>
+                        <payroll_date> 13 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+            <employee code="9657">
+                <employee_name> Juan </employee_name>
+                <working_since> 04/05/2008 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 1200€ </payroll_amount>
+                        <payroll_date> 04 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+            <employee code="4136">
+                <employee_name> María </employee_name>
+                <working_since> 08/10/2008 </working_since>
+                <payrolls>
+                    <payroll>
+                        <payroll_amount> 1200€ </payroll_amount>
+                        <payroll_date> 08 </payroll_date>
+                    </payroll>
+                </payrolls>
+            </employee>
+        </employees>
+        <game_screens>
+            <screen>
+                <screen_creator> 9657 </screen_creator>
+                <screen_percent> 68% </screen_percent>
+            </screen>
+            <screen>
+                <screen_name> Cards Locked Down </screen_name>
+                <screen_creator> 4136 </screen_creator>
+                <screen_percent> 77% </screen_percent>
+            </screen>
+        </game_screens>
+    </videogame>
+
+</videogames>
