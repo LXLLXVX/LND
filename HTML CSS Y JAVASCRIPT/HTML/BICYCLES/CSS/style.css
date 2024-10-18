@@ -1,0 +1,35 @@
+table,tr,td,th {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    
+    border-collapse:  collapse;
+}
+
+p{
+    background-color: green;
+    color: whitesmoke;
+
+    text-align: center;
+    width: 50%;
+}
+
+.right-and-blue{
+    text-align: right;
+    background-color: blue;
+}
+
+#very-special{
+    background-color: red;
+}
+
+div{
+    text-align: center;
+    
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
